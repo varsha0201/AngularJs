@@ -1,0 +1,9 @@
+.p{
+    color: red;
+    font-family: fantasy;
+    font-size: large;
+    text-shadow: 2px 2px gray;
+    padding: 20px;
+    background-color: lightpink;
+    border: 1px solid red;
+}
