@@ -1,1 +1,6 @@
 <p>This is the server template component</p>
+<!-- <p>This is server Id: {{ serverId }} and server Status is {{ serverStatus }}</p> -->
+<p>This is server Id: {{ serverId }} and server Status is {{ getServerStatus() }}</p> 
+<p [ngStyle]="{backgroundColor: getColor()}"
+[ngClass]="{'online': serverStatus ==='online'}">
+his is server Id: {{ serverId }} and server Status is {{ getServerStatus() }}</p> 
